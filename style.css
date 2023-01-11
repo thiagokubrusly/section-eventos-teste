@@ -2,6 +2,7 @@
     border: 0;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -73,6 +74,7 @@ h1, .eventos-title{
 #card-1{
     margin-left: 7.2rem;
     margin-right: 2.0rem;
+    padding: 6.4rem 3.7rem;
 }
 
 #card-2{
@@ -90,11 +92,27 @@ h1, .eventos-title{
     height: 9.6rem;
 }
 
+.title-card {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #F184D9;
+  font-size: 3.2rem;
+}
+
 .container-proximos-eventos .card .date-time-card p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #F184D9;
     font-size: 2.0rem;
+}
+
+.date-time-card {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #F184D9;
+    font-size: 2.0rem;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
 }
 
 
@@ -105,6 +123,17 @@ h1, .eventos-title{
     font-size: 2.0rem;
 
 }
+
+.place-card {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 2.0rem;
+}
+.place-card.bold {
+    font-weight: 700;
+}
+
 
 .container-proximos-eventos .card .content .btn-inscricao a{
     
@@ -117,6 +146,20 @@ h1, .eventos-title{
 
     width: 24.0rem;
     height: 6.2rem;
+    
+    border: 0.3rem solid #F184D9;
+    border-radius: 5.0rem;
+    text-decoration: none;
+}
+
+a.btn-inscricao {
+    
+    padding: 1.6rem 3.2rem;
+    margin: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.0rem;
+    color: #fff;
     
     border: 0.3rem solid #F184D9;
     border-radius: 5.0rem;
