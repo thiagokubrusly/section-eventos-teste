@@ -1,0 +1,125 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+section, .proximos-eventos{
+    width: 100vw;
+    height: 93.1rem;
+    background-color: #00000024; /*ajustar cor de fundo no final*/
+}
+
+
+h1, .eventos-title{
+    color: #F184D9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 4.8rem;
+
+    width: 44.1rem;
+    height: 7.2rem;
+
+    padding-top: 16.0rem;
+    padding-left: 50.0rem;
+    
+    margin-bottom: 4.8rem;
+
+}
+
+.container-proximos-eventos {
+    height: 49.1rem;
+    width: 130.0rem; /* não há, no figma, essa largura. Então somei a largura dos 3 cards com o espaço entre os cards. OBS: essa largura é apenas dos 3 cards + o espaço entre eles, não considera o espaço das bordas da página*/
+    
+    /* padding-left: 38.0rem; */
+    
+    display: flex;
+    
+    /*align-items: center;
+    justify-content: center;
+    flex-wrap: no-wrap; */
+}
+
+.inner-card{
+    width: 346px;
+    height: 363px;
+
+    margin: 6.4rem 3.7rem;
+    
+    border: 1px red solid;
+}
+
+.container-proximos-eventos .card {
+
+    /* position: relative; */
+ 
+    height: 49.1rem;
+    width: 42rem;
+    background-color: rgb(22, 4, 37); /*cor temporária*/
+    
+    padding: 0rem;
+    margin: 0rem;
+    
+    border: 0.2rem solid #fff;
+    border-radius: 1.6rem;
+    text-align: initial;
+
+}
+
+#card-1{
+    margin-left: 7.2rem;
+    margin-right: 2.0rem;
+}
+
+#card-2{
+    margin-right: 2.0rem;
+}
+
+.container-proximos-eventos .card .title-card h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #F184D9;
+    font-size: 3.2rem;
+    gap: 5rem;
+
+    width: 34.6rem;
+    height: 9.6rem;
+}
+
+.container-proximos-eventos .card .date-time-card p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #F184D9;
+    font-size: 2.0rem;
+}
+
+
+.container-proximos-eventos .card .content .place-card p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 2.0rem;
+
+}
+
+.container-proximos-eventos .card .content .btn-inscricao a{
+    
+    padding: 1.6rem 3.2rem;
+    margin: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.0rem;
+    color: #fff;
+
+    width: 24.0rem;
+    height: 6.2rem;
+    
+    border: 0.3rem solid #F184D9;
+    border-radius: 5.0rem;
+    text-decoration: none;
+}
+
